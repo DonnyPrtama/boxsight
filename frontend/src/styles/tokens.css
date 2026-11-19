@@ -1,0 +1,68 @@
+/* BoxSight tokens — login aliases point at the dashboard reference palette. */
+:root {
+  /* ground */
+  --paper: var(--dash-bg);
+  --paper-deep: var(--dash-frame);
+  --surface: var(--dash-panel);
+  --surface-alt: var(--dash-bg);
+
+  /* ink */
+  --ink: var(--dash-ink);
+  --ink-soft: #3a3a3a;
+  --muted: var(--dash-muted);
+  --faint: #626262;
+  --placeholder: #6f6f6f;
+
+  /* structure / focus */
+  --tan: #d9d8ff;
+  --tan-deep: var(--dash-blue);
+  --line: var(--dash-line);
+  --line-strong: var(--dash-line-strong);
+
+  /* actions */
+  --accent: var(--dash-blue);
+  --accent-hover: var(--dash-blue-hover);
+  --accent-active: var(--dash-blue-press);
+
+  /* dashboard — main-dashboard-reference.webp */
+  --dash-blue: #413dfa;
+  --dash-blue-hover: #332fe0;
+  --dash-blue-press: #2a26c9;
+  --dash-blue-tint: #ecebff;
+  --dash-ink: #282727;
+  --dash-muted: #626262;
+  --dash-bg: #f6f7f8;
+  --dash-frame: #eceef1;
+  --dash-panel: #ffffff;
+  --dash-line: #e6e7eb;
+  --dash-line-strong: #d8dae0;
+  --dash-sidebar: #282727;
+  --dash-sidebar-raised: #343434;
+  --dash-sidebar-active: #3a3a3a;
+  --dash-sidebar-text: #f6f7f8;
+  --dash-sidebar-muted: #a4a4a4;
+  --dash-danger: #b42318;
+  --dash-danger-bg: #fdf0ee;
+  --dash-skeleton: #e9ebef;
+  --dash-donut-base: #e3e5ea;
+
+  /* state */
+  --error: var(--dash-danger);
+  --error-deep: #8f1c13;
+  --error-bg: var(--dash-danger-bg);
+  --error-line: #f1cdc7;
+  --info: #8a5a12;
+  --info-bg: #fbf3e2;
+  --info-line: #ecd9b0;
+
+  /* type */
+  --font: "Reddit Mono", ui-monospace, SFMono-Regular, "Cascadia Mono", "Segoe UI Mono", Menlo, monospace;
+  --font-sans: "Reddit Sans", "Reddit Mono", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-narrow: "Reddit Sans Condensed", "Reddit Sans", "Reddit Mono", system-ui, sans-serif;
+
+  /* shape */
+  --radius-control: 4px;
+  --radius-card: 6px;
+
+  color-scheme: light;
+}

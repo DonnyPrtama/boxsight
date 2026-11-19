@@ -1,0 +1,39 @@
+# OS dan editor
+design/
+docs/
+
+# Secret dan konfigurasi lokal
+.env
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+backend/.venv/
+backend/.pytest_cache/
+backend/.test-artifacts/
+backend/boxsight.db
+backend/boxsight.db-shm
+backend/boxsight.db-wal
+backend/storage/images/*
+!backend/storage/images/.gitkeep
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/*.tsbuildinfo
+
+# Model
+model/data/*
+!model/data/.gitkeep
+model/weights/*
+!model/weights/.gitkeep
+model/training/*
+!model/training/.gitkeep
+model/notebooks/*
+!model/notebooks/.gitkeep
+*.pt
+*.pth
+*.onnx
+!model/weights/best.pt

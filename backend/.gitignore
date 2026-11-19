@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.test-artifacts/
+
+# Rahasia dan artefak lokal
+.env
+boxsight.db
+boxsight.db-shm
+boxsight.db-wal
+
+# File hasil upload tidak ikut repo
+storage/images/*
+!storage/images/.gitkeep

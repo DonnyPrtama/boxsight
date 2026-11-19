@@ -1,0 +1,10 @@
+.venv
+__pycache__
+*.pyc
+.pytest_cache
+.test-artifacts
+.env
+boxsight.db
+boxsight.db-shm
+boxsight.db-wal
+storage/images/*
